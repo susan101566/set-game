@@ -1,2 +1,2 @@
 # set-game
-The classic set game.
+The classic set game!
