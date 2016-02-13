@@ -12,7 +12,7 @@ $(document).ready(function() {
     event.preventDefault();
     var all_selected = $('.selected');
     if(all_selected.length != 3) {
-      alert('Need to select three cards to form a set.');
+      // alert('Need to select three cards to form a set.');
       return;
     }
     var codesToCheck = Array(3);
@@ -25,7 +25,7 @@ $(document).ready(function() {
       removeCards(codesToCheck);
       dealThree();
     } else {
-      alert('Not a set!');
+      // alert('Not a set!');
       clearAllSelected();
     }
   });
@@ -36,7 +36,7 @@ $(document).ready(function() {
     if (has) {
       alert('Set: ' + has);
     } else {
-      alert('No set');
+      // alert('No set');
       if(cur_deck.length < 3) {
         alert('YOU WIN!!');
       } else {
